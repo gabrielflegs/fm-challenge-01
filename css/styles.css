@@ -1,0 +1,139 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 20% 0 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+button {
+    width: 328px;
+    height: 56px;
+    border-radius: 32px;
+    border: 0;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-image: linear-gradient(#7857ff, #2e2be8);
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.icon {
+    font-weight: bold;
+}
+
+.icon img {
+    margin-right: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.main {
+    margin-top: 200px;
+    justify-content: center;
+    height: 550px;
+
+}
+
+.result {
+    background-image: linear-gradient(#7857ff, #2e2be8);
+    align-items: center;
+    color: white;
+    border-radius: 48px;
+    justify-content: space-evenly;
+    max-width: 370px;
+    text-align: center;
+}
+
+.summary {
+    justify-content: space-evenly;
+    padding-left: 64px;
+    width: 370px;
+}
+
+.summary p {
+    margin: 0;
+}
+
+.circle {
+    border-radius: 100%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#4e21ca, #2421ca00);
+
+}
+
+.circle p {
+    margin: 0;
+}
+
+.result > p {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.attribution { font-size: 11px; text-align: center; position:absolute; width: 100%; bottom: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#reaction {
+    background-color: hsl(0, 100%, 95%);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#reaction > .icon {color: hsl(0, 100%, 67%);}
+#reaction .scores {color: hsl(0, 100%, 67%); font-weight: bold; margin-right: 5px;}
+
+#memory {
+    background-color: hsl(39, 100%, 95%);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#memory > .icon {color: hsl(39, 100%, 56%);}
+#memory .scores {color: hsl(39, 100%, 56%); font-weight: bold; margin-right: 5px;}
+
+#verbal {
+    background-color: hsl(166, 100%, 95%);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#verbal > .icon {color: hsl(166, 100%, 37%);}
+#verbal .scores {color: hsl(166, 100%, 37%); font-weight: bold; margin-right: 5px;}
+
+#visual {
+    background-color: hsl(234, 85%, 95%);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#visual > .icon {color: hsl(234, 85%, 45%);}
+#visual .scores {color: hsl(234, 85%, 45%); font-weight: bold; margin-right: 5px;}
